@@ -5124,7 +5124,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -5200,7 +5200,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-brand>img {
-    display: block
+    display: block;
+    height: 40px;
 }
 
 @media (min-width:768px) {
@@ -7793,6 +7794,7 @@ button.close {
 }
 
 .center-block {
+    width: 100%;
     display: block;
     margin-right: auto;
     margin-left: auto
