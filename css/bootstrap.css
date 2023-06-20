@@ -7796,6 +7796,7 @@ button.close {
 .center-block {
     width: 100px;
     display: block;
+    border-radius: 15px;
     margin-right: auto;
     margin-left: auto
 }
