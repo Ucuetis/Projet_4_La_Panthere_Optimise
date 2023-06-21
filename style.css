@@ -378,6 +378,11 @@ a:hover {
     margin: auto;
 }
 
+.portfolio__title-h2 {
+    max-width: 42rem;
+    margin:auto;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
