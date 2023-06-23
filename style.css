@@ -385,13 +385,19 @@ a:hover {
 }
 
 .img-responsive {
-    width: 270px;
+    width: 100%;
+    height: auto;
     margin: auto;
 }
 
 .black, 
 .icon-md {
     color: #000000!important;
+}
+
+.image-resize-mode {
+    width: 100px;
+    height: 100px;
 }
 
 @media (min-width: 768px) {
@@ -772,6 +778,8 @@ h4 {
 }
 
 .portfolio-thumb {
+    width: 270px;
+    height: 270px;
     margin-bottom: 24px;
 }
 
