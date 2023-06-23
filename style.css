@@ -81,6 +81,7 @@ a:hover {
 }
 
 .bloc-bg-texture::before {
+    width: 100%;
     content: "";
     background-size: 2px 2px;
     position: absolute;
@@ -91,7 +92,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
+    background: url("img/texture-paper.webp") ;
     background-size: 280px 280px;
 }
 
@@ -381,6 +382,15 @@ a:hover {
 .portfolio__title-h2 {
     max-width: 42rem;
     margin:auto;
+}
+
+.img-responsive {
+    margin: auto;
+}
+
+.black, 
+.icon-md {
+    color: #000000!important;
 }
 
 @media (min-width: 768px) {
@@ -698,7 +708,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -796,17 +806,21 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
+}
+
+.tc-black {
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
