@@ -385,6 +385,7 @@ a:hover {
 }
 
 .img-responsive {
+    width: 270px;
     margin: auto;
 }
 
@@ -845,18 +846,22 @@ h4 {
 }
 
 .bg-dots-bg {
+    width: 100%;
     background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
+    width: 100%;
     background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
+    width: 100%;
     background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
+    width: 100%;
     background-image: url("img/image-de-presentation.webp");
 }
 
