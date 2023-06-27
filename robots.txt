@@ -1,7 +1,4 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
 User-agent: *
-Allow: /
+Disallow: 
 
-Sitemap: https://ucuetis.github.io/TP4_La_Panthere_Optimise/sitemap.txt
+Sitemap: https://ucuetis.github.io/TP4_La_Panthere_Optimise/sitemap.xml
